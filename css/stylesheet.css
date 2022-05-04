@@ -1,5 +1,5 @@
 body {
-    margin: 0%;
+    margin: 0;
     width: 100%;
     height: auto;
     background-color: #ebf1e9;
@@ -8,3 +8,32 @@ body {
     flex-direction: column;
 }
 
+.header {
+    width: 1024px;
+    height: 235px;
+    border: rgb(0, 0, 0) solid 1px;
+}
+
+.nav {
+    width: 1024px;
+    height: 106px;
+    border: rgb(0, 0, 0) solid 1px;
+}
+
+.bio {
+    width: 991px;
+    height: 483px;
+    border: rgb(0, 0, 0) solid 1px;
+}
+
+.myworks {
+    width: 998px;
+    height: 532px;
+    border: rgb(0, 0, 0) solid 1px;
+}
+
+.footer {
+    width: 1024px;
+    height: 129px;
+    border: rgb(0, 0, 0) solid 1px;
+}
