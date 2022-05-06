@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    width: 100%;
     height: auto;
     background-color: #ebf1e9;
     display: flex;
@@ -12,28 +11,64 @@ body {
     width: 1024px;
     height: 235px;
     border: rgb(0, 0, 0) solid 1px;
+    display: flex;
 }
 
-.nav {
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     width: 1024px;
     height: 106px;
     border: rgb(0, 0, 0) solid 1px;
+    /* text-align: center; */
+
+}
+
+#navtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .bio {
-    width: 991px;
+    width: 1024px;
     height: 483px;
     border: rgb(0, 0, 0) solid 1px;
 }
 
+#biotext {
+    display: flex;
+    justify-content: center;
+}
+
+#bioimg {
+    display: flex;
+    width: 202.5px;
+    height: 218.5px;
+}
+
 .myworks {
-    width: 998px;
+    width: 1024px;
     height: 532px;
     border: rgb(0, 0, 0) solid 1px;
+    display: flex;
 }
 
 .footer {
     width: 1024px;
     height: 129px;
     border: rgb(0, 0, 0) solid 1px;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border: solid 1px black;
+    align-self: center;
+    flex-grow: 1;
 }
