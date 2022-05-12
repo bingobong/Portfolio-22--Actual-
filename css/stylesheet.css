@@ -4,7 +4,13 @@ body {
     background-color: #ebf1e9;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    /* flex-direction: column; */
+}
+
+#main-container {
+    width: 1024px;
+    height: 4000px;
+    background-color: darkslategrey;
 }
 
 .header {
@@ -12,6 +18,20 @@ body {
     height: 235px;
     border: rgb(0, 0, 0) solid 1px;
     display: flex;
+    justify-content: flex-end;
+}
+
+#headertext {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: solid 1px black;
+    color: aqua;
+    background-color: pink;
+}
+
+#headerfirstname {
+    background-color: purple;
 }
 
 nav {
@@ -22,8 +42,6 @@ nav {
     width: 1024px;
     height: 106px;
     border: rgb(0, 0, 0) solid 1px;
-    /* text-align: center; */
-
 }
 
 #navtext {
@@ -36,17 +54,30 @@ nav {
     width: 1024px;
     height: 483px;
     border: rgb(0, 0, 0) solid 1px;
+    display: flex;
+}
+
+#bioheader {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: -20px;
 }
 
 #biotext {
     display: flex;
     justify-content: center;
+    position: relative;
+    bottom: -250px;
+    left: -75px;
 }
 
 #bioimg {
     display: flex;
     width: 202.5px;
     height: 218.5px;
+    position: relative;
+    left: 850px;
 }
 
 .myworks {
